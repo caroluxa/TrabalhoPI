@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(202, 198, 198);
+}
+
+
+
+.container {
+    max-width: 1400px;
+    padding: 3%;
+    margin: 0 auto;
+
+
+
+}
+
+nav {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+nav .logo {
+    align-items: center;
+    font-size: 25px;
+    font-style: italic;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-decoration: underline;
+
+
+
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+
+}
+
+nav ul li a {
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 19px;
+    color: rgb(202, 97, 10);
+    border-radius: 30px;
+    transition: 0.6s;
+
+}
+
+nav ul li a:hover {
+    background-color: rgb(0, 0, 0);
+
+
+}
+
+.imgprincipal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1400px;
+    height: 300px;
+    margin: auto;
+    border: 1px solid whitesmoke;
+    border-radius: 60px;
+
+}
+
+.text1 {
+    margin: 12px;
+    font-size: 20px;
+    border: 1px solid rgb(216, 197, 197);
+    border-radius: 20px;
+    text-align: justify;
+    width: 870px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    white-space: normal;
+}
+
+
+.tit1 {
+    font-size: 22px;
+    color: rgb(235, 97, 47);
+
+}
+
+.imgs {
+    width: 310px;
+    height: 260px;
+;
+}
+
+.imgs2 {
+    width: 400px;
+    height: 300px;
+    float: left;
+    border-radius: 120px;
+}
+
+.textmen {
+    font-size: 18px;
+    border: 1px solid whitesmoke;
+    border-radius: 20px;
+    text-align: justify;
+    width: 1000px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    white-space: normal;
+
+}
+
+.textitens {
+    margin: 14px;
+    font-size: 18px;
+    color: #067706;
+    border: 1px solid whitesmoke;
+    border-radius: 20px;
+    text-align: justify;
+
+}
+
+.imgplan {
+    width: 400px;
+    height: 320px;
+    float: left;
+    color: #067706;
+}
+
+.forms 
+
+    *{
+        border-radius: 20px;
+        font-size:20px;
+        box-sizing: border-box;
+       }
+       #container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 5%;
+        border: 2px solid pink;
+        background-image: linear-gradient(to right, white, pink);
+        padding: 10px;
+    }
+    .grupo{
+     width: 50vi;/*% vertical*/
+     font-weight: bold;
+    }
+    input, select,fieldset {
+     width: 90%;
+     padding: 4px;
+     border:3px solid rgb(93, 163, 104);
+     margin-top:5px;
+     margin-bottom: 5px;
+    }
+    input[type=radio]{
+     width:5%;
+    }
+    .btn{
+     background-color: rgb(235, 97, 47);
+     color: white;
+     border: 0px solid rgb(235, 97, 47);
+    }
+    label{
+     display: block;
+    }
+    .gen label{
+     display: inline;
+    }
